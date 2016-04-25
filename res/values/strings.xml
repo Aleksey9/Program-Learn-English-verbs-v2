@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Изучаем английские глаголы v1.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Добро пожаловать!</string>
+   	<string name="medium_text_ru">Общее количество глаголов: 2</string>
+   	<string name="medium_hint_text_ru">Введите своё имя</string>
+    <string name="textstart">Старт</string>
+    <string name="title_activity_second">Ответьте на 7 вопросов</string>
+    <string name="title_activity_second2">SecondActivity</string>
+
+</resources>
