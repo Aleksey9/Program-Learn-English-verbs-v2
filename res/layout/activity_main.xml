@@ -2,64 +2,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/headpiece_3" >
 
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_centerVertical="true"
-    android:layout_centerInParent="true">
-
-    <TextView
-        android:id="@+id/textView2"
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:hint="@string/medium_hint_text_ru"
-        android:padding="20dp"
-        android:text="@string/medium_text_ru"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:onClick="StartButtonClicked"
-        android:text="@string/textstart" />
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:context="${relativePackage}.${activityClass}" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
-        android:src="@drawable/empty_big_square" />
+        <Button
+            android:id="@+id/buttonSettingsStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonStart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="SettingsButtonClicked"
+            android:text="@string/text_settings_start" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:padding="20dp"
-        android:text="Medium Text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonSettingsStart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="ResultsButtonClicked"
+            android:text="@string/button_result" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:text="@string/hello"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-    
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textTitle2ViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitleViewApp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="@string/medium_text_ru"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textTitle3ViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle2ViewApp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/text_title3_view_app"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle3ViewApp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="StartButtonClicked"
+            android:text="@string/textstart" />
+
+        <TextView
+            android:id="@+id/textTitleViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/hello"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="10dp"
+            android:onClick="RecordsButtonClicked"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_records" />
+    </RelativeLayout>
 
 </RelativeLayout>

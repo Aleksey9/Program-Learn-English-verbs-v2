@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/headpiece_10" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:context="${relativePackage}.${activityClass}" >
+    
+	    <Button
+	        android:id="@+id/buttonWatchLeft"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginTop="1dp"
+	        android:layout_above="@+id/progressBarWatch1"
+	        android:onClick="pressButtonWatchLeft"
+	        android:text="@string/text_button_watch_left" />
+	
+	    <TextView
+	        android:id="@+id/textTitleWatch1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="3dp"
+	        android:text="@string/text_title_watch_1"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+	        android:id="@+id/textTitleWatch2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/textTitleWatch1"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="2dp"
+	        android:text="@string/text_title_watch_2"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <ProgressBar
+	        android:id="@+id/progressBarWatch1"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/textTitleWatch2"
+	        android:progressDrawable="@drawable/blueprogressbar"
+	        android:minHeight="5dip"
+	        android:maxHeight="5dip" />
+	
+	    <TextView
+	        android:id="@+id/textWatchBase"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/buttonNumberGroup"
+	        android:layout_centerHorizontal="true"
+	        android:text="W A T C H I N G   O F   B A S E"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <Button
+	        android:id="@+id/buttonDelete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/progressBarWatch2"
+	        android:layout_centerHorizontal="true"
+	        android:onClick="pressButtonDelete"
+	        android:text="@string/text_button_delete" />
+	
+	    <ListView
+	        android:id="@+id/listView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/buttonDelete"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/textWatchBase" >
+	    </ListView>
+	
+	    <ProgressBar
+	        android:id="@+id/progressBarWatch2"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginBottom="5dp"
+	        android:progressDrawable="@drawable/blueprogressbar"
+	        android:minHeight="5dip"
+	        android:maxHeight="5dip" />
+
+	    <TextView
+	        android:id="@+id/textViewNumberGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_alignBottom="@+id/editTextNumberGroup"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/progressBarWatch1"
+	        android:layout_toLeftOf="@+id/textTitleWatch2"
+	        android:text="@string/text_view_number_group"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/editTextNumberGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/buttonNumberGroup"
+	        android:layout_alignLeft="@+id/textTitleWatch1"
+	        android:layout_alignRight="@+id/textTitleWatch1"
+	        android:layout_below="@+id/progressBarWatch1"
+	        android:ems="10" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <Button
+	        android:id="@+id/buttonNumberGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/progressBarWatch1"
+	        android:onClick="goNumberGroup"
+	        android:text="Перейти" />
+
+	    <Button
+	        android:id="@+id/buttonWatchRight"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:onClick="pressButtonWatchRight"
+	        android:layout_above="@+id/progressBarWatch1"
+	        android:text="@string/text_button_watch_right" />
+	    
+	</RelativeLayout>
+
+</RelativeLayout>

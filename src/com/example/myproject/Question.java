@@ -2,9 +2,6 @@ package com.example.myproject;
 
 import java.util.ArrayList;
 
-import android.widget.RadioButton;
-import android.widget.TextView;
-
 /*
  * Объект "вопрос"
  */
@@ -18,11 +15,20 @@ public class Question {
 	public int correctAnswer; //номер правильного ответа
 	
 	public Question() {
-		
+		this.name = "";
+		for (int i = 0; i < this.N; ++i) {
+			ans[i] = "";
+		}
+		this.correctAnswer = 0;
 		return;
 	}
 	
 	public Question(String strQuestion) {
+		this.addQuestion(strQuestion);
+		return;
+	}
+	
+	public void addQuestion(String strQuestion) {
 		//создаём список, в который будем заносить ответы на вопрос:
 		ArrayList <String> qList = new ArrayList();
 		//Обрабатываем вопросную строку:
@@ -61,6 +67,5 @@ public class Question {
 			}
 			++i; //идём дальше
 		}
-		return;
 	}
 }

@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Изучаем английские глаголы v1.0</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Изучаем английские глаголы v2.3</string>
+    <string name="hello_world">Идёт загрузка приложения&#8230;</string>
+    <string name="action_settings_1">Горизонтальная ориентация</string>
+    <string name="action_settings_2">Вертикальная ориентация</string>
     <string name="hello">Добро пожаловать!</string>
-   	<string name="medium_text_ru">Общее количество глаголов: 2</string>
-   	<string name="medium_hint_text_ru">Введите своё имя</string>
+    <string name="medium_text_ru">Общее количество глаголов: </string>
     <string name="textstart">Старт</string>
+    <string name="text_settings_start">Настройки</string>
     <string name="title_activity_second">Ответьте на 7 вопросов</string>
-    <string name="title_activity_second2">SecondActivity</string>
+    <string name="title_activity_settings">Настройки приложения</string>
+    <string name="hello_world_1">Настройки базы данных</string>
+    <string name="text_button">Добавить новые вопросы</string>
+    <string name="text_button_2">Просмотр базы</string>
+    <string name="small_text">Просмотр базы с функцией удаления</string>
+    <string name="small_text_2">Добавление новой группы \n вопросов в базу данных</string>
+    <string name="text_button_3">Удалить вопросы</string>
+    <string name="text_title_watch_1">Просмотр</string>
+    <string name="text_title_watch_2">группы вопросов</string>
+    <string name="text_view_number_group">Перейти к записи:</string>
+    <string name="text_button_watch_left">←назад</string>
+    <string name="text_button_watch_right">вперёд→</string>
+    <string name="text_button_delete">Удалить группу вопросов</string>
+    <string name="title_activity_add">Добавить в базу новую запись</string>
+    <string name="add_text_0">Добавить вопрос</string>
+    <string name="add_text_1">Введите вопрос:</string>
+    <string name="add_text_2">Введите правильный ответ:</string>
+    <string name="add_text_3">Введите неправильный ответ 1:</string>
+    <string name="add_text_4">Введите неправильный ответ 2:</string>
+    <string name="add_text_5">Введите неправильный ответ 3:</string>
+    <string name="add_text_6">Введите неправильный ответ 4:</string>
+    <string name="add_button">Добавить</string>
+    <string name="title_activity_watch_delete">Просмотр базы данных</string>
+    <string name="button_result">Результаты</string>
+    <string name="text_title3_view_app">Введите имя (нажмите на поле ввода):</string>
+    <string name="title_activity_results">Вопросы, изученные игроком</string>
+    <string name="text_title_watch_1_results">Игрок</string>
+    <string name="text_title_watch_2_results">Вася</string>
+    <string name="text_button_delete_results">Удалить все результаты этого игрока</string>
+    <string name="button_records">Рекорды</string>
+    <string name="title_activity_records">Рекорды</string>
+    <string name="text_button_delete_records">Удалить все записи</string>
 
 </resources>

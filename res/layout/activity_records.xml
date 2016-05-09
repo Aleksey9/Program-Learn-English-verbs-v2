@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/headpiece_7" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:context="${relativePackage}.${activityClass}" >
+	
+	    <TextView
+	        android:id="@+id/textWatchBaseRecords"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:text="W A T C H I N G   O F   B A S E"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <ListView
+	        android:id="@+id/listView1Records"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/buttonDeleteRecords"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/textWatchBaseRecords" >
+	    </ListView>
+
+	    <Button
+	        android:id="@+id/buttonDeleteRecords"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:onClick="pressButtonDeleteRecords"
+	        android:text="@string/text_button_delete_records" />
+	    
+	</RelativeLayout>
+    
+
+</RelativeLayout>

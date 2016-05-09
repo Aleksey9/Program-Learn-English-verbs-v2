@@ -5,40 +5,271 @@
 <resources>
 
 	<string-array name="q_1">
-        <item>Переведите: to drink_есть_одеваться_принимать душ_пить_прыгать_3</item>
-        <item>Переведите: to read_бежать_писать_скакать_рисовать_читать_4</item>
+        <item>Переведите: to go_идти_получать_знать_брать_использовать_0</item>
+        <item>Переведите: to get_получать_знать_брать_использовать_находить_0</item>
+        <item>Переведите: to know_знать_брать_использовать_находить_говорить_0</item>
+		<item>Переведите: to take_брать_использовать_находить_говорить_работать_0</item>
+        <item>Переведите: to use_использовать_находить_говорить_работать_звонить_0</item>
+        <item>Переведите: to find_находить_говорить_работать_звонить_спрашивать_0</item>
+        <item>Переведите: to tell_говорить_работать_звонить_спрашивать_класть_0</item>
+        <item>Переведите: to work_работать_звонить_спрашивать_класть_начинать_0</item>
+        <item>Переведите: to call_звонить_спрашивать_класть_начинать_помогать_0</item>
+        <item>Переведите: to ask_спрашивать_класть_начинать_помогать_показывать_0</item>
+        <item>Переведите: to put_класть_начинать_помогать_показывать_играть_0</item>
+        <item>Переведите: to begin_начинать_помогать_показывать_играть_бежать_0</item>
+        <item>Переведите: to help_помогать_показывать_играть_бежать_нести_0</item>
+        <item>Переведите: to show_показывать_играть_бежать_нести_писать_0</item>
+        <item>Переведите: to play_играть_бежать_нести_писать_сидеть_0</item>
+        <item>Переведите: to run_бежать_нести_писать_сидеть_стоять_0</item>
+        <item>Переведите: to bring_нести_писать_сидеть_стоять_терять_0</item>
+        <item>Переведите: to write_писать_сидеть_стоять_терять_платить_0</item>
+        <item>Переведите: to sit_сидеть_стоять_терять_платить_изучать_0</item>
+        <item>Переведите: to stand_стоять_терять_платить_изучать_останавливать_0</item>
+        <item>Переведите: to lose_терять_платить_изучать_останавливать_читать_0</item>
+        <item>Переведите: to pay_платить_изучать_останавливать_читать_расти_0</item>
+        <item>Переведите: to learn_изучать_останавливать_читать_расти_открывать_0</item>
+        <item>Переведите: to stop_останавливать_читать_расти_открывать_идти пешком_0</item>
+        <item>Переведите: to read_читать_расти_открывать_идти пешком_выигрывать_0</item>
+        <item>Переведите: to grow_расти_открывать_идти пешком_выигрывать_покупать_0</item>
+        <item>Переведите: to open_открывать_идти пешком_выигрывать_покупать_умирать_0</item>
+        <item>Переведите: to walk_идти пешком_выигрывать_покупать_умирать_строить_0</item>
+        <item>Переведите: to win_выигрывать_покупать_умирать_строить_падать_0</item>
+        <item>Переведите: to buy_покупать_умирать_строить_падать_резать_0</item>
+        <item>Переведите: to die_умирать_строить_падать_резать_достигать_0</item>
+        <item>Переведите: to build_строить_падать_резать_достигать_идти_0</item>
+        <item>Переведите: to fall_падать_резать_достигать_идти_получать_0</item>
+        <item>Переведите: to cut_резать_достигать_идти_получать_знать_0</item>
+        <item>Переведите: to reach_достигать_идти_получать_знать_брать_0</item>
     </string-array>
     
 	<!-- &#8230; - символ "..." -->
 	
 	<string-array name="q_2">
-        <item>Переведите: I am drinking &#8230;_Я пью с утра_Я обычно пил_Я пью сейчас_Я редко пью_Я мог выпить_2</item>
-        <item>Переведите: I often read &#8230;_Я читаю сейчас_Я читал в 5 часов_Я бывало читал_Я часто читаю_Я читаю уже 2 месяца_3</item>
+        <item>Укажите 2 форму глагола to go_went_gone_goed_goned_gown_0</item>
+        <item>Укажите 2 форму глагола to get_got_gote_geted_gat_gut_0</item>
+        <item>Укажите 2 форму глагола to know_knew_known_knowed_knaw_knowen_0</item>
+		<item>Укажите 2 форму глагола to take_took_taken_taked_tuke_toke_0</item>
+        <item>Укажите 2 форму глагола to use_used_usened_usen_usad_usan_0</item>
+        <item>Укажите 2 форму глагола to find_found_faund_fined_faund_fiend_0</item>
+        <item>Укажите 2 форму глагола to tell_told_teled_teld_tould_tolled_0</item>
+        <item>Укажите 2 форму глагола to work_worked_work_warke_worken_wark_0</item>
+        <item>Укажите 2 форму глагола to call_called_coll_callen_collen_cull_0</item>
+        <item>Укажите 2 форму глагола to ask_asked_ask_asken_askin_askked_0</item>
+        <item>Укажите 2 форму глагола to put_put_puted_pat_putin_puten_0</item>
+        <item>Укажите 2 форму глагола to begin_began_begun_begined_beganed_beginnen_0</item>
+        <item>Укажите 2 форму глагола to help_helped_halp_helpen_halpen_help_0</item>
+        <item>Укажите 2 форму глагола to show_showed_shown_showin_shaw_shawn_0</item>
+        <item>Укажите 2 форму глагола to play_played_play_playn_playned_plain_0</item>
+        <item>Укажите 2 форму глагола to run_ran_run_runed_raen_rayn_0</item>
+        <item>Укажите 2 форму глагола to bring_brought_broung_bringed_brang_brung_0</item>
+        <item>Укажите 2 форму глагола to write_wrote_written_wrighted_wrotten_wraight_0</item>
+        <item>Укажите 2 форму глагола to sit_sat_sited_siten_sitten_syt_0</item>
+        <item>Укажите 2 форму глагола to stand_stood_standed_stend_stund_staned_0</item>
+        <item>Укажите 2 форму глагола to lose_lost_losed_losted_losen_losten_0</item>
+        <item>Укажите 2 форму глагола to pay_paid_payed_paied_payn_pays_0</item>
+        <item>Укажите 2 форму глагола to learn_leant_learned_learnted_leont_lont_0</item>
+        <item>Укажите 2 форму глагола to stop_stopped_stopt_stopted_stapt_stap_0</item>
+        <item>Укажите 2 форму глагола to read_read_readed_readen_riden_reat_0</item>
+        <item>Укажите 2 форму глагола to grow_grew_grown_growed_grewed_growen_0</item>
+        <item>Укажите 2 форму глагола to open_opened_opent_opan_openen_openet_0</item>
+        <item>Укажите 2 форму глагола to walk_walked_wolked_walken_wolken_walk_0</item>
+        <item>Укажите 2 форму глагола to win_won_wined_win_wint_wont_0</item>
+        <item>Укажите 2 форму глагола to buy_bought_buyed_buyted_bout_buot_0</item>
+        <item>Укажите 2 форму глагола to die_died_diet_dai_daitet_dyitet_0</item>
+        <item>Укажите 2 форму глагола to build_built_builded_build_buildet_beeld_0</item>
+        <item>Укажите 2 форму глагола to fall_fell_fallen_falled_folled_foll_0</item>
+        <item>Укажите 2 форму глагола to cut_cut_cuted_cat_caten_cuten_0</item>
+        <item>Укажите 2 форму глагола to reach_reached_reach_reacht_reech_rich_0</item>
     </string-array>
     
 	<string-array name="q_3">
-        <item>Переведите: I could drink &#8230;_Я пил, когда он вошёл_Я мог выпить_Я редко пью_Я, бывало, пил_Я обычно пил_1</item>
-        <item>Переведите: I would read &#8230;_Я обычно читал_Я мог прочесть_Я, бывало, читал_Я читал в 5 часов_Я читаю сейчас_2</item>
+        <item>Укажите 3 форму глагола to go_gone_went_gowend_goned_gown_0</item>
+        <item>Укажите 3 форму глагола to get_got_gote_geted_gat_guted_0</item>
+        <item>Укажите 3 форму глагола to know_known_knew_knowed_knaw_knawen_0</item>
+		<item>Укажите 3 форму глагола to take_taken_took_taked_tuke_takes_0</item>
+        <item>Укажите 3 форму глагола to use_used_usened_usen_usad_uson_0</item>
+        <item>Укажите 3 форму глагола to find_found_faund_fined_faund_fond_0</item>
+        <item>Укажите 3 форму глагола to tell_told_teled_teld_tould_telnd_0</item>
+        <item>Укажите 3 форму глагола to work_worked_work_warke_worken_worket_0</item>
+        <item>Укажите 3 форму глагола to call_called_coll_callen_collen_colled_0</item>
+        <item>Укажите 3 форму глагола to ask_asked_ask_asken_askin_askned_0</item>
+        <item>Укажите 3 форму глагола to put_put_puted_pat_putin_putten_0</item>
+        <item>Укажите 3 форму глагола to begin_begun_began_begined_beganed_begon_0</item>
+        <item>Укажите 3 форму глагола to help_helped_halp_helpen_helpt_help_0</item>
+        <item>Укажите 3 форму глагола to show_shown_showed_showin_shaw_shouw_0</item>
+        <item>Укажите 3 форму глагола to play_played_play_playn_playned_plaid_0</item>
+        <item>Укажите 3 форму глагола to run_run_ran_runed_raen_rund_0</item>
+        <item>Укажите 3 форму глагола to bring_brought_broung_bringed_brang_braing_0</item>
+        <item>Укажите 3 форму глагола to write_written_wrote_wrighted_wrotten_wrout_0</item>
+        <item>Укажите 3 форму глагола to sit_sat_sited_siten_sitten_syten_0</item>
+        <item>Укажите 3 форму глагола to stand_stood_standed_stend_stund_staud_0</item>
+        <item>Укажите 3 форму глагола to lose_lost_losed_losted_losen_last_0</item>
+        <item>Укажите 3 форму глагола to pay_paid_payed_paied_payn_pais_0</item>
+        <item>Укажите 3 форму глагола to learn_leant_learned_learnted_leont_lynd_0</item>
+        <item>Укажите 3 форму глагола to stop_stopped_stopt_stopted_stapt_stoop_0</item>
+        <item>Укажите 3 форму глагола to read_read_readed_readen_riden_reated_0</item>
+        <item>Укажите 3 форму глагола to grow_grown_grew_growed_grewed_grewen_0</item>
+        <item>Укажите 3 форму глагола to open_opened_opent_opan_openen_opon_0</item>
+        <item>Укажите 3 форму глагола to walk_walked_wolked_walken_wolken_wolk_0</item>
+        <item>Укажите 3 форму глагола to win_won_wined_win_wint_winted_0</item>
+        <item>Укажите 3 форму глагола to buy_bought_buyed_buyted_bout_bait_0</item>
+        <item>Укажите 3 форму глагола to die_died_diet_dai_daitet_ditet_0</item>
+        <item>Укажите 3 форму глагола to build_built_builded_build_buildet_bueld_0</item>
+        <item>Укажите 3 форму глагола to fall_fallen_fell_falled_folled_fallt_0</item>
+        <item>Укажите 3 форму глагола to cut_cut_cuted_cat_caten_coten_0</item>
+        <item>Укажите 3 форму глагола to reach_reached_reach_reacht_reech_richt_0</item>
     </string-array>
     
 	<string-array name="q_4">
-        <item>Переведите: I seldom drink &#8230;_Я пью сейчас_Я, бывало, пил_Я пью с утра_Я редко пью_Я пил, когда он вошёл_3</item>
-        <item>Переведите: I could read &#8230;_Я мог прочесть_Я читаю уже 2 месяца_Я часто читаю_Я обычно читал_Я, бывало, читал_0</item>
+        <item>Переведите: she goes&#8230;_она ходит в музеи_она идёт быстро_она уходит за угол_она идёт за мной_она ходит кругами_0</item>
+        <item>Переведите: he gets&#8230;_он получает письма_он получает сейчас_он получает товар_он получает иногда_он уже получает_0</item>
+        <item>Переведите: you have known&#8230;_ты знаешь её 10 лет_ты узнаёшь много нового_тебя узнают на улице_ты узнаёшь всех кого видел_у тебя есть знания_0</item>
+		<item>Переведите: we have taken&#8230;_мы взяли книгу, которую вы забыли_мы берём всё подряд_мы берём только лучшее_мы берём на завтра_мы берём сейчас_0</item>
+        <item>Переведите: they use&#8230;_они используют эту штуковину_они сейчас пользуются_они используют её с утра_они используют ступку уже 2 часа_их используют_0</item>
+        <item>Переведите: I am finding&#8230;_я нахожу сейчас_я нахожу их ежедневно_я нахожу их всегда_я нахожу их после того, как увижу схему_я хочу найти_0</item>
+        <item>Переведите: Peter has told&#8230;_Вы слышали, что сейчас сказал Пётр_Пётр говорит сейчас_Петру сказали сейчас_Пётр давно сказал_Пётр что-то говорит_0</item>
+        <item>Переведите: Ann has been working&#8230;_Аня работает с 9 часов_Аня сейчас работает_Аня всё ещё работает_Аня работает каждый день_Аня работает по найму_0</item>
+        <item>Переведите: I call&#8230;_я встаю, одеваюсь, звоню по делам&#8230;_я звоню прямо сейчас_я звоню своему другу 3 часа подряд_я звоню 2 часа после назначенного времени_я звоню без перерыва_0</item>
+        <item>Переведите: you are asking&#8230;_вы спрашиваете сейчас_вы спрашиваете об этом каждый день_вы спрашиваете, а все уже ушли_сегодня вы спросили о нём_вас часто спрашивают_0</item>
+        <item>Переведите: we have put&#8230;_мы положили только что_*_*_*_*_0</item>
+        <item>Переведите: they have been beginning&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: I help&#8230;_я помогаю_*_*_*_*_0</item>
+        <item>Переведите: you are showing&#8230;_вы показываете сейчас_*_*_*_*_0</item>
+        <item>Переведите: dog has played&#8230;_собака уже наигралась_*_*_*_*_0</item>
+        <item>Переведите: cat has been running&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we bring&#8230;_мы несём_*_*_*_*_0</item>
+        <item>Переведите: they are writing&#8230;_они пишут письмо сейчас_*_*_*_*_0</item>
+        <item>Переведите: I have sat&#8230;_я уже сел_*_*_*_*_0</item>
+        <item>Переведите: you have been standing&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: it loses&#8230;_оно теряет_*_*_*_*_0</item>
+        <item>Переведите: we are paying&#8230;_мы платим сейчас_*_*_*_*_0</item>
+        <item>Переведите: they have learnt&#8230;_они уже изучили_*_*_*_*_0</item>
+        <item>Переведите: I stop&#8230;_я всегда останавливаю_*_*_*_*_0</item>
+        <item>Переведите: you are reading&#8230;_вы читаете сейчас_*_*_*_*_0</item>
+        <item>Переведите: he has grown&#8230;_я вижу он вырос_*_*_*_*_0</item>
+        <item>Переведите: she has been opening&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we walk&#8230;_мы идём_*_*_*_*_0</item>
+        <item>Переведите: you are winning&#8230;_ты у него выигрываешь_*_*_*_*_0</item>
+        <item>Переведите: they have bought&#8230;_они уже купили_*_*_*_*_0</item>
+        <item>Переведите: I have been dying&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: you build&#8230;_вы строите_*_*_*_*_0</item>
+        <item>Переведите: he is falling&#8230;_он падает в овраг_*_*_*_*_0</item>
+        <item>Переведите: she has cut&#8230;_она уже отрезала_*_*_*_*_0</item>
+        <item>Переведите: they have been reaching&#8230;_*_*_*_*_*_0</item>
     </string-array>
     
 	<string-array name="q_5">
-        <item>Переведите: I have been drinking &#8230;_Я пью с утра_Я пью сейчас_Я пил, когда он вошёл_Я мог выпить_Я, бывало, пил_0</item>
-        <item>Переведите: I am reading &#8230;_Я часто читаю_Я читаю уже 2 месяца_Я читаю сейчас_Я обычно читал_Я мог прочесть_2</item>
+        <item>Переведите: she went&#8230;_она ходила в школу_она уже ходила_она пришла и ждёт_она ходила пока ты не пришёл_она ходила к двум часам_0</item>
+        <item>Переведите: he got&#8230;_он получал в том году_он только что получил_он получил перед тобой_он получил бы_это он получает_0</item>
+        <item>Переведите: you had known&#8230;_ты знал это уже 2 часа до объявления_ты знал это давно_ты только что это узнал_ты не знал это_тебе дали знать_0</item>
+		<item>Переведите: we had taken&#8230;_мы взяли ключ когда вы пришли_мы взяли ключи со стола_мы брали уроки пения_мы брали всё подряд_мы брали деньги_0</item>
+        <item>Переведите: they used&#8230;_они использовали постоянно_они использовали вчера в 2 часа_они использовались в "тёмную"_они использовали в мае_их использовали в мае_0</item>
+        <item>Переведите: I was finding&#8230;_я нашёл это в тот момент_я нашёл их_я бы их нашёл_я нашёл их, не надеясь на это_меня уже нашли_0</item>
+        <item>Переведите: Peter had told&#8230;_Пётр сказал это вчера до 3 часов_Пётр сказал, что он устал_Петру сказали уходить_Пётр сказался больным_Пётр сказал, что ничего не видел_0</item>
+        <item>Переведите: Ann had been working&#8230;_Аня работала уже 3 часа до того, как мы пришли_Аня работала без отдыха_Аня работала с утра до вечера_Аня работала каждый день_Аня работала по 12 часов_0</item>
+        <item>Переведите: I called&#8230;_я звонил им всегда_я звонил только что_я звонил после 2 часов_я звонил за час до того, как ты пришёл_я, как узнал, сразу позвонил_0</item>
+        <item>Переведите: you were asking&#8230;_вы спрашивали за ужином_вчера вы спросили_вы почти всё спросили, как оборвалась связь_вы обо всём спросили к обеду_вы спросили, я ответил_0</item>
+        <item>Переведите: we had put&#8230;_мы положили 5 часов назад_*_*_*_*_0</item>
+        <item>Переведите: they had been beginning&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: I helped&#8230;_я помогал_*_*_*_*_0</item>
+        <item>Переведите: you were showing&#8230;_вы показывали на концерте_*_*_*_*_0</item>
+        <item>Переведите: dog had played&#8230;_собака наигралась в прошлую среду_*_*_*_*_0</item>
+        <item>Переведите: cat had been running&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we brought&#8230;_мы несли_*_*_*_*_0</item>
+        <item>Переведите: they were writing&#8230;_они писали жалобу за обедом_*_*_*_*_0</item>
+        <item>Переведите: I had sat&#8230;_я сел час назад_*_*_*_*_0</item>
+        <item>Переведите: you had been standing&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: it lost&#8230;_оно теряло_*_*_*_*_0</item>
+        <item>Переведите: we were paying&#8230;_мы платили вчера_*_*_*_*_0</item>
+        <item>Переведите: they had learnt&#8230;_они изучили в пошлом году_*_*_*_*_0</item>
+        <item>Переведите: I stopped&#8230;_я останавливал_*_*_*_*_0</item>
+        <item>Переведите: you were reading&#8230;_вы читали в антракте_*_*_*_*_0</item>
+        <item>Переведите: he had grown&#8230;_он вырос ещё вчера_*_*_*_*_0</item>
+        <item>Переведите: she had been opening&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we walked&#8230;_мы шли пешком_*_*_*_*_0</item>
+        <item>Переведите: you were winning&#8230;_ты у него выигрывал вчера_*_*_*_*_0</item>
+        <item>Переведите: they had bought&#8230;_они купили утром_*_*_*_*_0</item>
+        <item>Переведите: I had been dying&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: you built&#8230;_вы строили_*_*_*_*_0</item>
+        <item>Переведите: he was falling&#8230;_он падал когда я вошёл_*_*_*_*_0</item>
+        <item>Переведите: she had cut&#8230;_она отрезала вчера вечером_*_*_*_*_0</item>
+        <item>Переведите: they had been reaching&#8230;_*_*_*_*_*_0</item>
     </string-array>
     
 	<string-array name="q_6">
-        <item>Переведите: I was drinking &#8230;_Я мог выпить_Я обычно пил_Я, бывало, пил_Я пил, когда он вошёл_Я пью сейчас_3</item>
-        <item>Переведите: I was reading &#8230;_Я мог прочесть_Я, бывало, читал_Я обычно читал_Я часто читаю_Я читал в 5 часов_4</item>
+        <item>Переведите: she will go&#8230;_она пойдёт_она пойдёт как обычно_она пойдёт через 2 часа_она пойдёт после обеда_она поест и пойдёт_0</item>
+        <item>Переведите: he will get&#8230;_он получит_он получит в 3 часа_он получит в сентябре_он получает пенсию раз в месяц_он получит после того как сдаст&#8230;_0</item>
+        <item>Переведите: you will have known&#8230;_ты узнаешь это до того, как придёт отец_ты может быть узнаешь_ты узнаешь его сразу_тебя будут узнавать_тебя узнали бы_0</item>
+		<item>Переведите: we will have taken&#8230;_мы возьмём её до прихода гостей_мы заберём гвозди_мы возьмём, что полегче_мы возьмём и это_мы наверно возьмём_0</item>
+        <item>Переведите: they will use&#8230;_они будут использовать_они используют завтра в 3 часа_они используют до вечера_они используют перед уходом_их используют обязательно_0</item>
+        <item>Переведите: I will be finding&#8230;_я найду это, когда приеду домой_я найду его потом_я найду его на диване_я нахожу это нечестным_я смогу найти его_0</item>
+        <item>Переведите: Peter will have told&#8230;_Пётр скажет всё, что думает до твоего прихода_Пётр скажет уезжать_Пётр скахет всё_Пётр будет говорить долго_Всё, что скажет Пётр, мы учтём_0</item>
+        <item>Переведите: Ann will have been working&#8230;_К маю Аня будет работать на стройке уже 30 лет_Аня будет работать и работать_Аня будет работать до пенсии_Аня будет работать каждый день_Аня скоро не сможет работать_0</item>
+        <item>Переведите: I will call&#8230;_я завтра позвоню_я позвоню завтра в 7 часов_я буду звонить ему целый год_я позвоню ему завтра до часа дня_к концу дня я буду звонить ему уже 3 часа_0</item>
+        <item>Переведите: you will be asking&#8230;_вы будете спрашивать за обедом_вы будете спрашивать об этом через год_вы спросите об этом завтра к часу дня_вы спросите об этом по деликатнее_вы спросите и узнаете_0</item>
+        <item>Переведите: we will have put&#8230;_мы положим до марта 2017г_*_*_*_*_0</item>
+        <item>Переведите: they will have been beginning&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: I will help&#8230;_я помогу_*_*_*_*_0</item>
+        <item>Переведите: you will be showing&#8230;_вы будете показывать на семинаре_*_*_*_*_0</item>
+        <item>Переведите: dog will have played&#8230;_собака наиграется к 15 годам_*_*_*_*_0</item>
+        <item>Переведите: cat will have been running&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we will bring&#8230;_мы быдем нести_*_*_*_*_0</item>
+        <item>Переведите: they will be writing&#8230;_они будут писать сценарий на уроке_*_*_*_*_0</item>
+        <item>Переведите: I will have sat&#8230;_я сяду в поезд до 18 часов_*_*_*_*_0</item>
+        <item>Переведите: you will have been standing&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: it will lose&#8230;_оно потеряет_*_*_*_*_0</item>
+        <item>Переведите: we will be paying&#8230;_мы будем платить завтра_*_*_*_*_0</item>
+        <item>Переведите: they will have learnt&#8230;_они изучат до следующего года_*_*_*_*_0</item>
+        <item>Переведите: I will stop&#8230;_я остановлю_*_*_*_*_0</item>
+        <item>Переведите: you will be reading&#8230;_вы будете читать на вечере_*_*_*_*_0</item>
+        <item>Переведите: he will have grown&#8230;_он вырастет через 3 года_*_*_*_*_0</item>
+        <item>Переведите: she will have been opening&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we will walk&#8230;_мы пойдём пешком_*_*_*_*_0</item>
+        <item>Переведите: you will be winning&#8230;_ты будешь выигрывать завтра_*_*_*_*_0</item>
+        <item>Переведите: they will have bought&#8230;_они купят на следующей неделе_*_*_*_*_0</item>
+        <item>Переведите: I will have been dying&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: you will build&#8230;_вы будете строить_*_*_*_*_0</item>
+        <item>Переведите: he will be falling&#8230;_он будет падать весь год_*_*_*_*_0</item>
+        <item>Переведите: she will have cut&#8230;_она отрежет через 2 дня_*_*_*_*_0</item>
+        <item>Переведите: they will have been reaching&#8230;_*_*_*_*_*_0</item>
     </string-array>
     
 	<string-array name="q_7">
-        <item>Переведите: I used drink &#8230;_Я пью сейчас_Я пью с утра_Я редко пью_Я, бывало, пил_Я обычно пил_4</item>
-        <item>Переведите: I have been read &#8230;_Я читаю сейчас_Я обычно читал_Я читал в 5 часов_Я читаю уже 2 месяца_Я, бывало, читал_3</item>
+        <item>Переведите: she  would go&#8230;_она пошла бы_она идёт_она идёт сейчас_она уже идёт_она как бы идёт_0</item>
+        <item>Переведите: he is got&#8230;_его получают_он получил бы_он получает сейчас_он получает товар_он получает иногда_0</item>
+        <item>Переведите: you was known&#8230;_тебя узнали_ты узнаешь это в 3 часа_ты может быть узнаешь_ты узнаешь его сразу_тебя будут узнавать_0</item>
+		<item>Переведите: we are taken&#8230;_нас берут_мы заберём книги_мы возьмём, что полегче_мы возьмём и это_у нас возьмут_0</item>
+        <item>Переведите: they were used&#8230;_их использовали_они используют эту штуковину_они сейчас пользуются_они используют её с утра_они используют до вечера_0</item>
+        <item>Переведите: I am found&#8230;_меня нашли_его найдут у меня_я хочу найти_я нахожу это нечестным_я бы их нашёл_0</item>
+        <item>Переведите: Peter was told&#8230;_Петру сказали_Пётр сказал, что он устал_Пётр сказал бы_Пётр что-то говорил_Пётр давно сказал_0</item>
+        <item>Переведите: Ann has not been working&#8230;_Аня не работает с 5 часов_Аня сейчас не работает_Аня не будет завтра работать_Аня не согласна работать в 3 смену_Аня не работала в праздники_0</item>
+        <item>Переведите: I would call&#8230;_я обычно звонил_я буду звонить завтра в 7 утра_я звонил после 2 часов_я звоню без перерыва_я как только узнаю, сразу позвоню_0</item>
+        <item>Переведите: you used to ask&#8230;_вы обычно спрашивали_вы спросите, а что мне ответить_вы придёте, спросите и уйдёте_вы спросили, я ответил_сегодня вы спросили о нём_0</item>
+        <item>Переведите: we would have put&#8230;_мы_*_*_*_*_0</item>
+        <item>Переведите: they would have been beginning&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: I would help&#8230;_я бы помог_*_*_*_*_0</item>
+        <item>Переведите: you would be showing&#8230;_вы показали бы в цирке_*_*_*_*_0</item>
+        <item>Переведите: dog would have played&#8230;_собака_*_*_*_*_0</item>
+        <item>Переведите: cat would have been running&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we would bring&#8230;_мы принесли бы_*_*_*_*_0</item>
+        <item>Переведите: they would be writing&#8230;_они бы написали это за ужином_*_*_*_*_0</item>
+        <item>Переведите: I would have sat&#8230;_я_*_*_*_*_0</item>
+        <item>Переведите: you would have been standing&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: it would lose&#8230;_оно потеряло бы_*_*_*_*_0</item>
+        <item>Переведите: we would be paying&#8230;_мы бы платили за это_*_*_*_*_0</item>
+        <item>Переведите: they would have learnt&#8230;_они _*_*_*_*_0</item>
+        <item>Переведите: I would stop&#8230;_я остановился бы_*_*_*_*_0</item>
+        <item>Переведите: you would be reading&#8230;_вы бы читали ночью_*_*_*_*_0</item>
+        <item>Переведите: he would have grown&#8230;_он_*_*_*_*_0</item>
+        <item>Переведите: she would have been opening&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: we would walk&#8230;_мы шли бы пешком_*_*_*_*_0</item>
+        <item>Переведите: you would be winning&#8230;_ты бы выигрывал_*_*_*_*_0</item>
+        <item>Переведите: they would have bought&#8230;_они_*_*_*_*_0</item>
+        <item>Переведите: I would have been dying&#8230;_*_*_*_*_*_0</item>
+        <item>Переведите: you would build&#8230;_вы построили бы_*_*_*_*_0</item>
+        <item>Переведите: he would be falling&#8230;_он бы падал без поддержки_*_*_*_*_0</item>
+        <item>Переведите: she would have cut&#8230;_она_*_*_*_*_0</item>
+        <item>Переведите: they would have been reaching&#8230;_*_*_*_*_*_0</item>
     </string-array>
  
 </resources>
